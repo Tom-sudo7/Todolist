@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Todolist.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/previews/021/040/389/original/to-do-list-icon-vector.jpg">
+    <title>Todolist</title>
+</head>
+<body>
+    
+    <div class="contrainer">
+        <div class="banniere-titre">
+            <h1>
+                To-do list
+            </h1>
+        </div>
+        <section id="todo-list">
+            <form id="form">
+                <input type="text"
+                placeholder="Ici votre todo !"
+                id="todo"
+                autocomplete="off">
+                <button type="submit" id="addButton">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </form>
+
+
+            <div class="list-items">
+            </div>
+        </section>
+    </div>
+
+
+    <script src="Todolist.js"></script>
+</body>
+</html>
